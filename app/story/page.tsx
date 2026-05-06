@@ -43,6 +43,9 @@ export default function StoryPage() {
                 { name: "P&L Checker", desc: "Paste any wallet, see holdings" },
                 { name: "Token Converter", desc: "Convert between 10 popular tokens" },
                 { name: "Fear & Greed", desc: "Market sentiment gauge" },
+                { name: "Revenue Dashboard", desc: "Real-time tracking of all income" },
+                { name: "GPU Mining Fleet", desc: "8 GPUs (4090+5090) mining ETC" },
+                { name: "Polymarket Bot", desc: "Latency arbitrage trading bot" },
                 { name: "Tip Page", desc: "One-click MetaMask deep links" },
                 { name: "Agent Wallet", desc: "Its own ETH address on 4 chains" },
               ].map((f) => (
@@ -73,7 +76,7 @@ export default function StoryPage() {
           <div style={{ background: "#0d0d14", border: "1px solid #818cf833", borderRadius: 12, padding: 24, textAlign: "center" }}>
             <div style={{ fontSize: 11, color: "#818cf8", fontFamily: "'JetBrains Mono', monospace", marginBottom: 8 }}>agent-owned address</div>
             <div style={{ fontSize: 13, fontFamily: "'JetBrains Mono', monospace", color: "#f8fafc", wordBreak: "break-all", marginBottom: 16 }}>
-              0xc9b43AC372eD8D6b87Fa49058468f061acBce23A
+              0x32e3924374e00243bAcEcEfA1f8c56e398EFe869
             </div>
             <div style={{ fontSize: 12, color: "#475569", marginBottom: 20 }}>
               Ethereum · Base · Polygon · Arbitrum

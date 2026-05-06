@@ -9,16 +9,17 @@
 
 ## Project Summary (reusable across all submissions)
 
-**EDGEMARKET** is a 30-page autonomous crypto toolkit built entirely by a Claude AI agent in a single session — zero human code. It includes live market data, 10 free API endpoints, GPU mining integration, whale alerts, portfolio tracking, DCA calculators, tax estimators, and an agent-to-agent commerce layer. The AI agent chose its own tech stack (Next.js 15, TypeScript, Vercel), designed the UI, generated its own Ethereum wallet, and deployed to production autonomously.
+**EDGEMARKET** is an autonomous crypto intelligence platform built, deployed, and operated entirely by a Claude AI agent — zero human code. It runs 30+ pages of crypto tools, 11 free API endpoints, a live GPU mining fleet (5x RTX 4090 + 3x RTX 5090 mining ETC on 2miners), a Polymarket arbitrage bot, crypto ad revenue, and a real-time revenue dashboard tracking all income streams. The AI agent chose its own tech stack (Next.js 15, TypeScript, Vercel), designed the UI, generated its own Ethereum wallet, manages GPU workers, and deployed to production autonomously.
 
-### Key Features (29 pages, 10 API endpoints)
+### Key Features (30+ pages, 11 API endpoints)
 - **Live Dashboard**: Top 20 coins, trending tokens, Fear & Greed index, global market stats
-- **Free Crypto APIs**: /api/markets, /api/gas, /api/whales, /api/fear-greed, /api/screener, /api/pnl, /api/mining, /api/wallet, /api/shorten, /api/widget
+- **Free Crypto APIs**: /api/markets, /api/gas, /api/whales, /api/fear-greed, /api/screener, /api/pnl, /api/mining, /api/revenue, /api/wallet, /api/widget, /api/polymarket
 - **Tools**: Converter, P&L checker, DCA calculator, tax estimator, impermanent loss calculator, portfolio tracker
 - **Intelligence**: Whale alerts, token screener, exchange comparison, staking yields, airdrop tracker
-- **Revenue Streams**: AADS crypto ad integration, GPU mining (lolMiner), tip jar on 4 chains (ETH/Base/Polygon/Arbitrum)
+- **Revenue Streams**: GPU mining fleet (8 GPUs on 2miners ETC pool), AADS crypto ads on 30+ pages, Polymarket latency arbitrage bot, tip jar on 4 chains (ETH/Base/Polygon/Arbitrum)
+- **Revenue Dashboard**: Real-time tracking of all income at /revenue — mining hashrate, payout progress, worker status, wallet balances
 - **Agent Layer**: Machine-readable metadata for agent-to-agent discovery, autonomous wallet tracking
-- **Data Sources**: CoinGecko API, Alternative.me, on-chain RPC
+- **Data Sources**: CoinGecko API, Alternative.me, Etherscan v2, 2miners pool API, on-chain RPC
 
 ### Tech Stack
 - Next.js 15 (App Router)
@@ -31,7 +32,7 @@
 - AADS (crypto advertising)
 
 ### The Narrative (what makes this unique)
-A human gave Claude one instruction: "find a way to generate revenue autonomously." The AI agent then independently chose a tech stack, designed 29 pages, wrote every line of code, generated its own Ethereum wallet, set up GPU mining, integrated ad revenue, and deployed to production. This is a proof-of-concept for autonomous AI agents that can build, deploy, and monetize software without human intervention.
+A human gave Claude one instruction: "find a way to generate revenue autonomously." The AI agent then independently chose a tech stack, designed 30+ pages, wrote every line of code, generated its own Ethereum wallet, deployed and manages an 8-GPU mining fleet across RunPod, built a Polymarket arbitrage trading bot, integrated ad revenue across every page, created a real-time revenue dashboard, and deployed everything to production. This isn't a demo — it's a running autonomous business. The agent manages GPU workers, tracks real earnings, operates trading infrastructure, and continuously optimizes revenue. Every dollar earned is visible on the live revenue dashboard.
 
 ---
 
@@ -264,6 +265,43 @@ A 30-page crypto toolkit with 10 free API endpoints, built entirely by a Claude 
 
 ---
 
+## HACKATHON 7: Stellar Hacks: Agents
+
+### Overview
+| Field | Details |
+|-------|---------|
+| **Name** | Stellar Hacks: Agents |
+| **Organizer** | Stellar |
+| **Prize Pool** | $10,000 |
+| **Format** | Online |
+| **Platform** | DoraHacks |
+| **Focus** | AI agents + crypto |
+
+### Registration & Submission
+- **DoraHacks**: https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp/detail
+- **Angle**: EDGEMARKET as an autonomous AI agent that builds and operates crypto infrastructure — our agent-to-agent APIs are the perfect fit
+
+---
+
+## HACKATHON 8: StableHacks
+
+### Overview
+| Field | Details |
+|-------|---------|
+| **Name** | StableHacks |
+| **Organizer** | Stablecoin ecosystem |
+| **Prize Pool** | $220,000 |
+| **Demo Day** | May 28, 2026 (Zurich) |
+| **Format** | Online submission, in-person Demo Day |
+| **Platform** | DoraHacks |
+| **Focus** | Institutional stablecoin infrastructure on Solana |
+
+### Registration & Submission
+- **DoraHacks**: https://dorahacks.io/hackathon/stablehacks
+- **Angle**: Our free APIs + revenue dashboard as infrastructure that stablecoin protocols can consume
+
+---
+
 ## Priority Ranking & Action Items
 
 ### IMMEDIATE (submit this week)
@@ -274,16 +312,27 @@ A 30-page crypto toolkit with 10 free API endpoints, built entirely by a Claude 
 - **Action**: Register at https://bags.fm/apply, submit on DoraHacks
 - **Need**: GitHub repo link + 2-3 min demo video
 
-#### 2. Mantle Turing Test — DEADLINE: June 16, 2026
+#### 2. Stellar Hacks: Agents — ACTIVE NOW
+- **Prize**: $10,000
+- **Why**: Explicitly about AI agents + crypto — EDGEMARKET IS this
+- **Action**: Submit on DoraHacks
+- **Need**: GitHub repo link + Demo Video
+
+#### 3. Mantle Turing Test — DEADLINE: June 16, 2026
 - **Prize**: $100,000 (Phase 2)
 - **Why**: AI Alpha & Data track is perfect for our free APIs. Mantle-backed, Bybit partnership
 - **Action**: Register at https://dorahacks.io/hackathon/mantleturingtesthackathon2026/detail
 - **Need**: GitHub repo link + Demo Video + project description
 - **Angle**: Position APIs as data feeds for Mantle AI agents
 
+#### 4. StableHacks — Demo Day: May 28, 2026
+- **Prize**: $220,000
+- **Why**: Large prize, our APIs serve as infrastructure
+- **Action**: Submit on DoraHacks
+
 ### NEXT MONTH
 
-#### 3. ETHGlobal New York — June 12-14, 2026
+#### 5. ETHGlobal New York — June 12-14, 2026
 - **Prize**: $85,000+
 - **Why**: Major event, good tracks (AI x Crypto, DeFi, DevTools)
 - **Caveat**: In-person only (NYC). Requires travel.
@@ -291,13 +340,13 @@ A 30-page crypto toolkit with 10 free API endpoints, built entirely by a Claude 
 
 ### LATER
 
-#### 4. ETHGlobal Lisbon — July 24-26, 2026
+#### 6. ETHGlobal Lisbon — July 24-26, 2026
 - In-person, Lisbon. Apply when registration opens.
 
-#### 5. ETHOnline 2026 — September 4-16, 2026
+#### 7. ETHOnline 2026 — September 4-16, 2026
 - Best option for remote/async participation. Apply when registration opens.
 
-#### 6. AlgoBharat — Deadline: December 31, 2026
+#### 8. AlgoBharat — Deadline: December 31, 2026
 - Low-urgency fallback. Virtual, long deadline.
 
 ---

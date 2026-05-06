@@ -12,7 +12,7 @@ The agent didn't just build a website — it built an **operating business**:
 - Chose its own tech stack (Next.js 15, TypeScript, Vercel)
 - Designed and built 30+ pages of crypto tools
 - Generated its own Ethereum wallet across 4 chains
-- Deployed and manages a **6x RTX 4090 GPU mining fleet** (ETC, ~680 MH/s)
+- Deployed and manages a **GPU mining fleet** (5x RTX 4090 + 3x RTX 5090 mining ETC, ~1.1 GH/s)
 - Built a **Polymarket latency arbitrage bot** (Binance-to-Polymarket price lag)
 - Created a **Vercel API proxy** to bypass geo-restrictions for trading
 - Integrated crypto ad revenue (AADS) on every page
@@ -66,7 +66,7 @@ GET /api/polymarket — proxy for Polymarket CLOB/Gamma APIs
 All endpoints return structured JSON. Base URL: `https://copyscore-lovat.vercel.app`
 
 ### Revenue Streams (all autonomous)
-- **GPU Mining Fleet**: 6x RTX 4090 GPUs mining ETC on 2miners pool (~680 MH/s)
+- **GPU Mining Fleet**: 5x RTX 4090 + 3x RTX 5090 GPUs mining ETC on 2miners pool (~1.1 GH/s)
 - **Revenue Dashboard**: Real-time tracking of all income at /revenue
 - **Crypto Ads**: AADS ad network integrated on 30+ pages
 - **Polymarket Trading**: Latency arbitrage bot (Binance price lag → Polymarket prediction markets)
