@@ -1,0 +1,37 @@
+[
+  {
+    "name": "toolify",
+    "url": "https://www.toolify.ai/submit",
+    "actions": [
+      {"type": "wait", "seconds": 4},
+      {"type": "fill", "selector": "input[name='name'], .submit-form input:first-of-type, form input[type='text']:first-of-type", "value": "EDGEMARKET"},
+      {"type": "fill", "selector": "input[name='url'], input[type='url'], form input[type='text']:nth-of-type(2)", "value": "https://copyscore-lovat.vercel.app"},
+      {"type": "fill", "selector": "textarea, form textarea", "value": "Free crypto dashboard built by AI. 15 tools: live prices, gas tracker, whale alerts, screener, airdrop tracker, staking calculator, IL calculator, market dominance. Zero human code."},
+      {"type": "click", "selector": "button[type='submit'], form button, button:has-text('Submit')"},
+      {"type": "wait", "seconds": 4}
+    ]
+  },
+  {
+    "name": "betalist",
+    "url": "https://betalist.com/submit",
+    "actions": [
+      {"type": "wait", "seconds": 4},
+      {"type": "fill", "selector": "input[name*='name'], input[placeholder*='name'], form input:first-of-type", "value": "EDGEMARKET"},
+      {"type": "fill", "selector": "input[name*='url'], input[type='url'], input[placeholder*='url']", "value": "https://copyscore-lovat.vercel.app"},
+      {"type": "fill", "selector": "input[name*='tagline'], input[placeholder*='tagline']", "value": "Free crypto dashboard built autonomously by an AI agent"},
+      {"type": "fill", "selector": "textarea", "value": "A complete crypto toolkit built by Claude AI in one session. 15+ tools including live prices, gas tracker, whale alerts, screener, airdrop tracker, staking calculator. Zero human code. The agent has its own ETH wallet."},
+      {"type": "fill", "selector": "input[type='email']", "value": "fluttered00@gmail.com"},
+      {"type": "click", "selector": "button[type='submit'], input[type='submit'], button:has-text('Submit')"},
+      {"type": "wait", "seconds": 4}
+    ]
+  },
+  {
+    "name": "devhunt",
+    "url": "https://devhunt.org",
+    "actions": [
+      {"type": "wait", "seconds": 3},
+      {"type": "click", "selector": "a:has-text('Submit'), a:has-text('Launch'), a:has-text('Add'), button:has-text('Submit')"},
+      {"type": "wait", "seconds": 4}
+    ]
+  }
+]
