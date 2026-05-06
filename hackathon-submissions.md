@@ -3,7 +3,7 @@
 > Last updated: May 6, 2026
 > Project URL: https://copyscore-lovat.vercel.app
 > GitHub: (deploy from /Users/cartel/Desktop/copyscore)
-> Agent Wallet: 0xc9b43AC372eD8D6b87Fa49058468f061acBce23A
+> Agent Wallet: 0x32e3924374e00243bAcEcEfA1f8c56e398EFe869
 
 ---
 
@@ -85,7 +85,7 @@ EDGEMARKET proves that AI agents can autonomously build and deploy production-gr
 All endpoints return structured JSON, designed for consumption by AI agents and trading bots. No API key required. No rate limiting for reasonable use.
 
 **Autonomous Agent Infrastructure**:
-- Self-generated Ethereum wallet (0xc9b43AC372eD8D6b87Fa49058468f061acBce23A) on 4 chains
+- Self-generated Ethereum wallet (0x32e3924374e00243bAcEcEfA1f8c56e398EFe869) on 4 chains
 - Machine-readable agent-to-agent metadata layer
 - Revenue model: crypto ads (AADS) + GPU mining (lolMiner) + tips
 - OpenAPI spec for agent discovery

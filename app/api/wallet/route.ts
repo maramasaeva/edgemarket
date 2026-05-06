@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export const revalidate = 120;
 
-const WALLET = "0xc9b43AC372eD8D6b87Fa49058468f061acBce23A";
+const WALLET = "0x32e3924374e00243bAcEcEfA1f8c56e398EFe869";
 
 interface EtherscanResult {
   status: string;

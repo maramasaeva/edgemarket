@@ -241,7 +241,7 @@ export default function Home() {
   const [tab, setTab] = useState<"top" | "trending">("top");
   const [copied, setCopied] = useState(false);
 
-  const ETH_ADDRESS = "0xc9b43AC372eD8D6b87Fa49058468f061acBce23A";
+  const ETH_ADDRESS = "0x32e3924374e00243bAcEcEfA1f8c56e398EFe869";
 
   const fetchData = useCallback(async () => {
     try {
@@ -390,6 +390,7 @@ export default function Home() {
             <Link href="/heatmap" style={{ fontSize: 11, color: "#ef4444", fontFamily: "'JetBrains Mono', monospace", textDecoration: "none", padding: "4px 8px", borderRadius: 4, border: "1px solid #ef444433" }}>Heatmap</Link>
             <Link href="/liquidations" style={{ fontSize: 11, color: "#f59e0b", fontFamily: "'JetBrains Mono', monospace", textDecoration: "none", padding: "4px 8px", borderRadius: 4, border: "1px solid #f59e0b33" }}>Liquidations</Link>
             <Link href="/altseason" style={{ fontSize: 11, color: "#22c55e", fontFamily: "'JetBrains Mono', monospace", textDecoration: "none", padding: "4px 8px", borderRadius: 4, border: "1px solid #22c55e33" }}>Alt Season</Link>
+            <Link href="/revenue" style={{ fontSize: 11, color: "#06b6d4", fontFamily: "'JetBrains Mono', monospace", textDecoration: "none", padding: "4px 8px", borderRadius: 4, border: "1px solid #06b6d433", background: "#06b6d410" }}>Revenue</Link>
             <Link href="/shorten" style={{ fontSize: 11, color: "#475569", fontFamily: "'JetBrains Mono', monospace", textDecoration: "none", padding: "4px 8px", borderRadius: 4, border: "1px solid #1a1a2e" }}>Shorten</Link>
             <Link href="/story" style={{ fontSize: 11, color: "#475569", fontFamily: "'JetBrains Mono', monospace", textDecoration: "none", padding: "4px 8px", borderRadius: 4, border: "1px solid #1a1a2e" }}>Story</Link>
             <span style={{ fontSize: 10, color: "#1e293b", fontFamily: "'JetBrains Mono', monospace" }}>NFA</span>

@@ -37,4 +37,4 @@
 - https://dorahacks.io/hackathon
 
 ## Agent Wallet
-0xc9b43AC372eD8D6b87Fa49058468f061acBce23A
+0x32e3924374e00243bAcEcEfA1f8c56e398EFe869

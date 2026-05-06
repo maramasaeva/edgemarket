@@ -34,5 +34,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/heatmap`, lastModified: new Date(), changeFrequency: "hourly", priority: 0.9 },
     { url: `${base}/liquidations`, lastModified: new Date(), changeFrequency: "always", priority: 0.9 },
     { url: `${base}/altseason`, lastModified: new Date(), changeFrequency: "hourly", priority: 0.9 },
+    { url: `${base}/revenue`, lastModified: new Date(), changeFrequency: "always", priority: 0.9 },
   ];
 }

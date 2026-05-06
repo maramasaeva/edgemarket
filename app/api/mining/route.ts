@@ -3,7 +3,8 @@ import { NextResponse } from "next/server";
 export const revalidate = 120;
 
 export async function GET() {
-  const wallet = "0xc9b43AC372eD8D6b87Fa49058468f061acBce23A";
+  const wallet = "0x32e3924374e00243bAcEcEfA1f8c56e398EFe869";
+  const oldWallet = "0xc9b43AC372eD8D6b87Fa49058468f061acBce23A";
 
   try {
     const res = await fetch(
