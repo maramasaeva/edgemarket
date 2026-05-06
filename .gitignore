@@ -5,3 +5,4 @@ node_modules
 .env.local
 nostr-keys.json
 *.log
+.wallet-key.secret
