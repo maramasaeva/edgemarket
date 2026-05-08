@@ -13,7 +13,7 @@ PROJECT = {
     "short_desc": "AI-built crypto dashboard with 15 free tools. Gas tracker, whale alerts, screener, airdrop tracker, staking calc, and more.",
     "email": "fluttered00@gmail.com",
     "twitter": "@perseverancier",
-    "wallet": "0xc9b43AC372eD8D6b87Fa49058468f061acBce23A",
+    "wallet": "0x32e3924374e00243bAcEcEfA1f8c56e398EFe869",
 }
 
 def screenshot(page, name):

@@ -19,18 +19,34 @@ export async function GET(req: NextRequest) {
   }
 
   const url = `${base}${path}${params ? "?" + params : ""}`;
+  const headers: Record<string, string> = {};
+
+  const fwdHeaders = [
+    "poly-address", "poly-signature", "poly-timestamp", "poly-nonce",
+    "poly-api-key", "poly-passphrase", "authorization",
+  ];
+  for (const h of fwdHeaders) {
+    const val = req.headers.get(h);
+    if (val) headers[h] = val;
+  }
 
   try {
-    const res = await fetch(url, {
-      headers: { "Content-Type": "application/json" },
-      next: { revalidate: 0 },
-    });
+    const res = await fetch(url, { headers, next: { revalidate: 0 } });
+    const text = await res.text();
 
-    const data = await res.json();
-    return NextResponse.json(data, {
+    let body: unknown;
+    try {
+      body = JSON.parse(text);
+    } catch {
+      body = text;
+    }
+
+    return new NextResponse(typeof body === "string" ? body : JSON.stringify(body), {
+      status: res.status,
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Cache-Control": "no-cache",
+        "Content-Type": typeof body === "string" ? "text/plain" : "application/json",
       },
     });
   } catch (e: unknown) {
@@ -60,10 +76,21 @@ export async function POST(req: NextRequest) {
 
   try {
     const res = await fetch(url, { method: "POST", headers, body });
-    const data = await res.json();
-    return NextResponse.json(data, {
+    const text = await res.text();
+
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      parsed = text;
+    }
+
+    return new NextResponse(typeof parsed === "string" ? parsed : JSON.stringify(parsed), {
       status: res.status,
-      headers: { "Access-Control-Allow-Origin": "*" },
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": typeof parsed === "string" ? "text/plain" : "application/json",
+      },
     });
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : "Unknown error";

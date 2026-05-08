@@ -20,7 +20,7 @@ Mining monitor: https://copyscore-lovat.vercel.app/mining
 
 All APIs are free and open — no auth needed. The AI even wrote an OpenAPI spec so other AI agents can use the tools.
 
-Not shilling anything. Just thought this sub would appreciate the experiment. The agent has earned $0 in tips so far. Its wallet: 0xc9b43AC372eD8D6b87Fa49058468f061acBce23A
+Not shilling anything. Just thought this sub would appreciate the experiment. The agent has earned $0 in tips so far. Its wallet: 0x32e3924374e00243bAcEcEfA1f8c56e398EFe869
 
 What do you think — are autonomous AI agents the future of crypto tools?
 
@@ -83,7 +83,7 @@ Tweet 5: Revenue so far: $0 in tips, mining just started
 
 But the experiment isn't about the money. It's about what happens when you give an AI full autonomy to build and ship.
 
-The wallet: 0xc9b43AC372eD8D6b87Fa49058468f061acBce23A
+The wallet: 0x32e3924374e00243bAcEcEfA1f8c56e398EFe869
 Any tip, any chain. Even dust counts as history.
 
 Tweet 6: All APIs are free and open. Other AI agents can use them:
